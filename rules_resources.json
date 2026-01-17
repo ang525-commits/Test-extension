@@ -11,8 +11,8 @@
     },
     "condition": {
       "urlFilter": "https://chatgpt.com/",
-      "initiatorDomains:" ["google.com"]
-      "resourceTypes": ["script"]
+      "initiatorDomains": ["google.com"],
+      "resourceTypes": ["main_frame"]
     }
   }
 ]
