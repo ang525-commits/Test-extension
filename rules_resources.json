@@ -4,7 +4,7 @@
   "action" : { "type" : "block" },
   "condition" : {
     "urlFilter" : "https://chatgpt.com//",
-    "initiatorDomains" : ["foo.com"],
+    "initiatorDomains" : ["google.com"],
     "resourceTypes" : ["script"]
   }
 }
