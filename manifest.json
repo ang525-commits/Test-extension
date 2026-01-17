@@ -10,7 +10,7 @@
       {
         "id": "ruleset_1",
         "enabled": true,
-        "path": "rule_resources.json"
+        "path": "rules_resources.json"
       }
     ]
   }
