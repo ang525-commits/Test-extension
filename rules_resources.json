@@ -9,7 +9,8 @@
       }
     },
     "condition": {
-      "urlFilter": "chatgpt.com", "https://claude.ai/",
+      "urlFilter": "chatgpt.com",
+      "urlFilter": "https://claude.ai/",
       "resourceTypes": ["main_frame"]
     }
   }
