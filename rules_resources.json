@@ -1,10 +1,19 @@
-{
-  "id" : 1,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "https://chatgpt.com//",
-    "initiatorDomains" : ["google.com"],
-    "resourceTypes" : ["script"]
+
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.linkedin.com/feed/"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://chatgpt.com/",
+      "initiatorDomains:" ["google.com"]
+      "resourceTypes": ["script"]
+    }
   }
-}
+]
+
