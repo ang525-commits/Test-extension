@@ -11,7 +11,7 @@
     },
     "condition": {
       "urlFilter": "https://chatgpt.com/",
-      "initiatorDomains": ["google.com"],
+      "initiatorDomains": ["edge://newtab"],
       "resourceTypes": ["main_frame"]
     }
   }
