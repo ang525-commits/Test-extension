@@ -12,6 +12,8 @@
         "enabled": true,
         "path": "rules_resources.json"
       }
+    ]
+  },
       "web_accessible_resources": [
     {
       "resources": ["Shame.html"],
@@ -19,4 +21,3 @@
     }
     ]
   }
-}
