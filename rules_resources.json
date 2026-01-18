@@ -27,6 +27,20 @@
       "resourceTypes": ["main_frame"]
     }
   }
+   {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.linkedin.com/feed/"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://gemini.google.com/",
+      "resourceTypes": ["main_frame"]
+    }
+  }
 ]
 
 
