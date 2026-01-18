@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "claude.ai/chat/",
+      "urlFilter": "claude.ai",
       "resourceTypes": ["main_frame"]
     }
   },
