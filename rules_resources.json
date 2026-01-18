@@ -9,8 +9,21 @@
       }
     },
     "condition": {
-      "urlFilter": "chatgpt.com",
       "urlFilter": "https://claude.ai/",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+   {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.linkedin.com/feed/"
+      }
+    },
+    "condition": {
+      "urlFilter": "chatgpt.com",
       "resourceTypes": ["main_frame"]
     }
   }
