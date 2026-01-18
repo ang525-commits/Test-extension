@@ -4,10 +4,10 @@
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["declarativeNetRequest,alarms"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
-  "host_permissions": ["<all_urls>"],
   "declarative_net_request": {
     "rule_resources": [
       {
@@ -23,6 +23,5 @@
       "matches": ["<all_urls>"]
     }
     ]
-  
 }
 
