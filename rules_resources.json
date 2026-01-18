@@ -5,7 +5,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://www.linkedin.com/feed/"
+         "extensionPath": "/Shame.html"
       }
     },
     "condition": {
@@ -19,7 +19,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://www.linkedin.com/feed/"
+        "extensionPath": "/Shame.html"
       }
     },
     "condition": {
@@ -33,7 +33,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://www.linkedin.com/feed/"
+         "extensionPath": "/Shame.html"
       }
     },
     "condition": {
