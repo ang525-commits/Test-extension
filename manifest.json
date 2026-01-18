@@ -3,7 +3,7 @@
   "description": "Redirect test",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["declarativeNetRequest", "alarms"],
+  "permissions": ["declarativeNetRequest", "alarms","storage"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
