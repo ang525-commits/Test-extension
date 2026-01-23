@@ -20,7 +20,7 @@
       "https://claude.ai/*",
       "https://gemini.google.com/*"
     ],
-    "js": ["content.js"]
+    "js": ["background.js"]
   }
 ]
 }
