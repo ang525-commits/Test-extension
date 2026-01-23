@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     chrome.runtime.sendMessage({ action: 'activateRule'});
   });
      noButton.addEventListener('click', () => {
-    chrome.runtime.sendMessage({ action: 'activateRule'});
+    chrome.runtime.sendMessage({ action: 'DeactivateRule'});
   });
 
 });
