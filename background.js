@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
       "resourceTypes": ["main_frame"]
     }
   };
-  const ruleId2 = 1;
+  const ruleId2 = 2;
   const rule2 = {
     "id": 2,
     "priority": 1,
@@ -29,9 +29,9 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
       "resourceTypes": ["main_frame"]
     }
   };
-  const ruleId3 = 1;
+  const ruleId3 = 3;
   const rule3 = {
-    "id": 2,
+    "id": 3,
     "priority": 1,
     "action": {
       "type": "redirect",
