@@ -46,10 +46,23 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   };
   if (msg.action === 'activateRule') {
     chrome.declarativeNetRequest.updateDynamicRules({ addRules: [rule,rule2,rule3] });
-    if (window.location.hostname.includes("chatgpt.com") || window.location.hostname.includes("gemini.google.com") || window.location.hostname.includes("claude.ai")){
-      window.location.href = chrome.runtime.getURL("Shame.html");
+   chrome.tabs.query({ url: "*://*.chatgpt.com/*" }, (tabs) => {
+     tabs.forEach(tab => {
+    chrome.tabs.update(tab.id, { url: chrome.runtime.getURL("Shame.html") });
+  });
+});
+    chrome.tabs.query({ url: "*://*.claude.ai/*" }, (tabs) => {
+     tabs.forEach(tab => {
+    chrome.tabs.update(tab.id, { url: chrome.runtime.getURL("Shame.html") });
+  });
+});
+    chrome.tabs.query({ url: "*://*.gemini.google.com/*" }, (tabs) => {
+     tabs.forEach(tab => {
+    chrome.tabs.update(tab.id, { url: chrome.runtime.getURL("Shame.html") });
+  });
+});
   }
-  } else if (msg.action === 'deactivateRule') {
+  else if (msg.action === 'deactivateRule') {
     chrome.declarativeNetRequest.updateDynamicRules({ removeRuleIds: [ruleId,ruleId2,ruleId3] });
   }
 });
